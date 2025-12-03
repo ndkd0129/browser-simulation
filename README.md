@@ -9,11 +9,13 @@ Simply open `index.html` in your web browser.
 
 ### Deployment (GitHub Pages)
 
-To share this with others, you can deploy it to GitHub Pages:
+This project is configured to automatically deploy to GitHub Pages using GitHub Actions.
 
-1.  Create a new repository on GitHub.
-2.  Push this code to the repository.
-3.  Go to Settings > Pages and enable GitHub Pages from the `main` branch.
+1.  Push this code to a GitHub repository.
+2.  Go to the repository **Settings** > **Pages**.
+3.  Under **Build and deployment**, ensure **Source** is set to **GitHub Actions**.
+4.  The site will be deployed automatically on every push to the `main` or `master` branch.
+
 
 ## Project Structure
 
